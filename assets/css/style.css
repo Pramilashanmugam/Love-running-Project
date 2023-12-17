@@ -1,7 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 /* Asterisk wildcard selector to override the default style added by the browser */
 * {
@@ -17,18 +15,17 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
-
 
 /* Header */
 header {
@@ -41,14 +38,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 header a {
     text-decoration: none;
     color: inherit;
 }
-
 
 #menu {
     font-size: 110%;
@@ -91,7 +86,6 @@ nav {
 
 /* Main Content */
 main {
-
     /* main content takes the surplus place to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
@@ -107,7 +101,7 @@ main {
 
 #cover-text {
     /*Final rgba value sets to opacity so it is semi transparent*/
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107, 0.7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -172,8 +166,13 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+
 /*Meet up section*/
-#times
+#times {
+    background: no-repeat center/cover url("../images/dublin-city.webp");
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* Fóoter */
 #social-networks {
@@ -188,11 +187,10 @@ h3 {
     padding: 5%;
     font-size: 280%;
     color: #3a3a3a;
-
 }
 
 /*Media queries: tablets and larger (768px and up)*/
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
 
     /*header*/
     nav {
@@ -218,14 +216,13 @@ h3 {
     #logo {
         font-size: 280%;
         line-height: 75px;
-        margin: 0 0 .5rem;
+        margin: 0 0 0.5rem;
     }
 
     /*Main content*/
     main {
         /*Push main content down to accomodate larger header*/
         margin-top: 79px;
-
     }
 
     /*Hero*/
@@ -254,7 +251,7 @@ h3 {
 }
 
 /*Media queries: laptops and desktop (992px and up)*/
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
 
     /*hover on menu anchor element*/
     #menu a:hover {
@@ -265,7 +262,6 @@ h3 {
     main {
         /*Push main content down to accomodate larger header*/
         margin-top: 82px;
-
     }
 
     /*Media queries: laptops and desktop (1200px)*/
@@ -279,7 +275,6 @@ h3 {
     }
 
     #benefits-image {
-
         order: 0;
     }
 
