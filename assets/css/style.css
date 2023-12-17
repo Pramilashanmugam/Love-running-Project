@@ -204,15 +204,17 @@ h3 {
 #photos {
     line-height: 0;
 }
+
 /*Sign up Page*/
 
 #signup {
-   background: no-repeat center/cover url("../images/signup-image.webp");
-   background-size: cover;
-   background-position: 75%;
-   padding: 20px 10% 0 10%;
-   flex-grow:1;
+    background: no-repeat center/cover url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
+
 main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
@@ -222,21 +224,37 @@ main {
     display: flex;
     flex-direction: column;
 }
-#signup-form >h2{color: #fafafa;
-    margin-bottom:20px;
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 .text-input {
-    background:transparent;
-     color:#fafafa;
-     width:100%;
-     height:25px;
-     padding:0 5px;
-     margin:5px 0 20px 0;
-     border:1px solid #fafafa;
-     border-radius:2px;
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 
 }
+
+.radio_buttons {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.join-button 
+{margin:20px 0 0 0;
+    padding:15px 32px;
+border-radius:2px;
+background-color:#454b1b;
+color:#fafafa;
+font-size:100%;}
+
 /* Fóoter */
 #social-networks {
     text-align: center;
