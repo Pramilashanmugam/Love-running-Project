@@ -26,7 +26,11 @@ h3 {
     letter-spacing: 2px;
     color: #252525;
 }
-.hidden-heading { display:none;}
+
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -191,6 +195,15 @@ h3 {
     color: #fafafa;
 }
 
+/*Gallery Page*/
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
 
 /* Fóoter */
 #social-networks {
