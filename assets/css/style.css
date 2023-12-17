@@ -91,7 +91,7 @@ nav {
 
 /* Main Content */
 main {
-    background-color: lightblue;
+
     /* main content takes the surplus place to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
@@ -247,7 +247,7 @@ h3 {
 
     #benefits-mental>div {
         text-align: end;
-        align-end: flex-end;
+        align-self: flex-end;
     }
 }
 
@@ -264,5 +264,31 @@ h3 {
         /*Push main content down to accomodate larger header*/
         margin-top: 82px;
 
+    }
+
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+
+        order: 0;
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        align-self: flex-end;
     }
 }
